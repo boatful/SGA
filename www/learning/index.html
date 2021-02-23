@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--
+    Customize this policy to fit your own app's needs. For more guidance, see:
+        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+    Some notes:
+        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Learning Center</title>
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Learning Center</h1>
+        If we are going to start building a SGA app, we should at least
+        consider doing so using modern developer tools like Atom, Cordova/PhoneGap, GIT/NPM and javascript libraries
+        such as xCode/Swift (iOS), NodeJs, ReactNative, etc. Below I will begin
+        organizing some links to resources that may/will come in
+        handy if that's what actually happens.
+      </header>
+      I will group links to tutorials, below:
+      <dl id="tutorials">
+        <dt>Atom</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="https://flight-manual.atom.io/">Flight Manual</a>
+            </li>
+              <li>
+                <a href="https://discuss.atom.io/">Forum</a>
+              </li>
+              <li>
+                <a href="C:/Users/boatf/.atom/snippets.cson">Snippets</a>
+              </li>
+          </ul>
+        </dd>
+        <dt>Cordova/PhoneGap</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="https://cordova.apache.org/">Get Started</a>
+            </li>
+          </ul>
+        </dd>
+        <dt>git</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="http://git-scm.com/download/win">Start using git</a>
+            </li>
+          </ul>
+        </dd>
+        <dt>iOS</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="https://developer.apple.com/">Developers/xCode</a>
+            </li>
+          </ul>
+        </dd>
+        <dt>Git</dt>
+        <dd>
+          <ul>
+            <li>
+              <a href="http://git-scm.com/download/win">Downloading Git</a>
+            </li>
+            <li>
+              Example: git commit -m "First local SGA commit"
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/questions/13239368/git-how-to-close-commit-editor">How to close the commit editor</a>
+            </li>
+            <li>
+              <a href="https://kbroman.org/github_tutorial/pages/init.html">Start a new git repository</a>
+            </li>
+          </ul>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>
